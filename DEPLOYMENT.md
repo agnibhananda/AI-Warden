@@ -7,7 +7,9 @@ For other hosting services, you may use any Next.js template - or simply use `np
 The app expects these variables to be defined:
 - `HMAC_PRIVATE_KEY`: the private key for history verification,
 - `TRUST_TOKEN_KEY`: the private key for generating trust JWTs (JSON Web Tokens),
+- `HACKCLUB_OPENAI_TOKEN`: a token for the OpenAI backend - see the `#open-ai-token` channel on the Hack Club Slack for more information,
 - `GOOGLE_AI_TOKEN`: a token for the Google AI backend, used for Gemini - you can create one for free on the Google AI Studio,
+- `GROQ_API_KEY`: the API key for Groq, used for models other than GPT and Gemini,
 - `NEXT_PUBLIC_TURNSTILE_SITE_KEY`: the public site key for Cloudflare Turnstile,
 - `NEXT_PRIVATE_TURNSTILE_SECRET_KEY`: the secret key for Cloudflare Turnstile.
 
